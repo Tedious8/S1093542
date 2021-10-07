@@ -22,9 +22,22 @@ img {
     text-align: center;
 }
 
+.images {
+    max-height: 200px; 
+    padding-top: 100px; 
+    padding-bottom: 20px; 
+    background: linear-gradient(to bottom right, #ffffff, #858585);
+    background-repeat: no-repeat;
+}
+
+.body {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
 .flex {
     display: flex;
-    border-color: 4px solid black;
 }
 
 .flex-ai-c {
@@ -41,6 +54,7 @@ img {
 
 .slides {
     display: none;
+    float: right;
 }
 
 .fade {
@@ -48,6 +62,19 @@ img {
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+  
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+h1 {
+    text-align: center;
 }
 
 a {
@@ -65,48 +92,25 @@ a {
 li {
     line-height: 2;
 }
-  
-@-webkit-keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-}
-  
-@keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-}
 
 th {
     text-align: left;
 }
 
-h1 {
-    text-align: center;
-}
-
-.body {
-    padding-left: 16px;
-    padding-right: 16px;
-}
-
-.images {
-    max-height: 200px; 
-    padding-top: 100px; 
-    padding-bottom: 20px; 
-    background: linear-gradient(to bottom right, #ffffff, #858585);
-    background-repeat: no-repeat;
-}
-
 td, th {
     padding-left: 8px;
     padding-right: 8px;
-    height: 20px;
 }
 
 table {
-    /* width: 50%; */
+    height: 320px;
     border-collapse: collapse;
 }
 
 tr:nth-child(even) {background-color: #D6D6D6;}
+
+
+
+
+
 /*#363636*/
