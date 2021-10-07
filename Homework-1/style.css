@@ -49,6 +49,22 @@ img {
     animation-name: fade;
     animation-duration: 1.5s;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.link-box {
+    background-color: #1D8BEF;
+    border-radius: 4px;
+    padding: 4px;
+    color: white;
+}
+
+li {
+    line-height: 2;
+}
   
 @-webkit-keyframes fade {
     from {opacity: .4} 
@@ -63,4 +79,34 @@ img {
 th {
     text-align: left;
 }
+
+h1 {
+    text-align: center;
+}
+
+.body {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.images {
+    max-height: 200px; 
+    padding-top: 100px; 
+    padding-bottom: 20px; 
+    background: linear-gradient(to bottom right, #ffffff, #858585);
+    background-repeat: no-repeat;
+}
+
+td, th {
+    padding-left: 4px;
+    padding-right: 4px;
+    height: 20px;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {background-color: #D6D6D6;}
 /*#363636*/
