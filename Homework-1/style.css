@@ -98,13 +98,13 @@ h1 {
 }
 
 td, th {
-    padding-left: 4px;
-    padding-right: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
     height: 20px;
 }
 
 table {
-    width: 50%;
+    /* width: 50%; */
     border-collapse: collapse;
 }
 
