@@ -109,7 +109,11 @@ table {
 
 tr:nth-child(even) {background-color: #D6D6D6;}
 
-
+@media (max-width: 560px) {
+    .flex {
+        flex-direction: column;
+    }
+}
 
 
 
