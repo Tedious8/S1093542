@@ -86,6 +86,12 @@ a {
     border-radius: 4px;
     padding: 4px;
     color: white;
+    opacity: 0.75;
+    transition: opacity 300ms ease-in-out;
+}
+
+.link-box:hover {
+    opacity: 1;
 }
 
 li {
