@@ -1,0 +1,21 @@
+h1 {
+    width: 450px;
+    max-width: 465px;
+}
+
+h1#first {
+    background-color: #ADD8E6;
+    border: 10px double #F6694F;
+}
+
+h1#second {
+    background-color: #ffff00;
+    border: 3px solid #41A4FF;
+    border-radius: 10px;
+    width: 465px;
+}
+
+h1#third {
+    background-color: #3CB371;
+    border: 12px dotted #808080;
+}
