@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz-CSS-08</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        p.color {
+            background-color: #FFC3CE;
+            padding: 6px;
+            width: 500px;
+            height: 30px;
+        }
+        #hover:hover + p.color {
+            background-color: #ffff00;   
+        }
+        div.suedo-class p:nth-child(2) {
+            width: 390px;
+        }
+        div.suedo-class p:nth-child(2)::selection {
+            color: #ff0000;
+            background: #ffff00;
+        }
+        div.suedo-element p::first-letter {
+            font-size: 2.5em;
+            color: #ff0000;
+        }
+    </style>
+</head>
+<body>
+    <div class="suedo-class">
+        <h1>CSS Seudo-class</h1>
+        <p id="hover">Hover over me to change the background color of p element.</p>
+        <p class="color">I can change color!</p>
+    </div>
+    <div class="suedo-element">
+        <h1>CSS Seudo-element</h1>
+        <p>This is an introduction</p>
+    </div>
+</body>
+</html>
