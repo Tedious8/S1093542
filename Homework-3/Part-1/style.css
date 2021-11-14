@@ -1,0 +1,87 @@
+div.gallery {
+    border: 1px solid #ccc;
+}
+  
+div.gallery:hover {
+    border: 1px solid #777;
+}
+  
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+  
+div.desc {
+    padding: 15px;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+div.desc p:first-child {
+    font-weight: bolder;
+}
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.btn-container {
+    position: relative;
+    height: 50px;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#display-container {
+    display: none;
+    position: relative;
+    height: 350px;
+    margin: 60px 0;
+}
+
+#display {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+.responsive {
+    padding: 6px;
+    float: left;
+    width: 24.99999%;
+}
+  
+@media only screen and (max-width: 799px) {
+    .responsive {
+      width: 32.99999%;
+      margin: 6px 0;
+    }
+}
+  
+@media only screen and (max-width: 399px) {
+    .responsive {
+      width: 100%;
+    }
+
+    #display-container {
+        height: 150px;
+    }
+}
+  
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
