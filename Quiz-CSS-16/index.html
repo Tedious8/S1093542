@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz-CSS-16</title>
+    <style>
+        div {
+            width: 50px;
+            height: 50px;
+            background-color: #FFC0CB;
+            
+        }
+        #first {
+            transition-property: width;
+            transition-duration: 2s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 0.09s;
+        }
+        #first:hover{
+            width: 500px;
+        }
+        #second {
+            transition: width 2s, height 2s;
+        }
+        #second:hover {
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="first">1</div>
+    <br>
+    <div id="second">2</div>
+</body>
+</html>
