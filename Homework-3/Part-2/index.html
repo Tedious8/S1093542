@@ -5,8 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homework-3 Part-2</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+        <div class="calculator">
+            <p id="display"></p>
+            <div class="button-container">
+                <div class="button-operator">
+                    <button onclick="key('+')">+</button>
+                    <button onclick="key('-')">-</button>
+                    <button onclick="key('*')">*</button>
+                    <button onclick="key('/')">/</button>
+                </div>
+                <div class="button-operand">
+                    <button onclick="key('0')">0</button>
+                    <button onclick="key('1')">1</button>
+                </div>
+                <div class="button-operand">
+                    <button onclick="erase()">C</button>
+                    <button onclick="calculate()">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
     
+    <script src="./app.js"></script>
 </body>
 </html>
