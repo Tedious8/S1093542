@@ -1,5 +1,8 @@
 div.gallery {
     border: 1px solid #ccc;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
   
 div.gallery:hover {
@@ -27,8 +30,31 @@ div.desc p:first-child {
     box-sizing: border-box;
 }
 
+body {
+    background: linear-gradient(360deg, rgba(255,255,255,1) 50%, rgba(35,243,255,1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: 0;
+}
+
 h1 {
     text-align: center;
+}
+
+#btn-click {
+    padding: 12px;
+    border: 0;
+    border-radius: 16px;
+    background-color: #00ccff;
+    opacity:1 ;
+    cursor: pointer;
+    color: #ffffff;
+    z-index: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#btn-click:active {
+    background-color: #00b8e6;
 }
 
 .btn-container {
@@ -48,6 +74,8 @@ button {
     position: relative;
     height: 350px;
     margin: 60px 0;
+    transition-duration: 1.2s;
+    transition-timing-function: ease-in-out;
 }
 
 #display {

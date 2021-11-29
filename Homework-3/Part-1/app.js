@@ -14,21 +14,15 @@ const foods = [food1, food2, food3, food4, food5, food6, food7, food8, food9, fo
 
 console.log(foods);
 
-function random() {
-    // for (let i = 0; i < 10; i++) {
-    //     console.log(Math.floor(Math.random() * 12) + 1);
-    // }
+const random = () => {
     let holder = foods[Math.floor(Math.random() * 12)];
     console.log(holder);
     return holder;
 }
 
-function btn_display() {
+const btn_display = () => {
     let display = document.getElementById('display');
     let food = random(); // Random function
-    // let food = foods[2];
     display.innerHTML = food.innerHTML;
-    // document.getElementById('display-container').style.display = "none";
-    document.getElementById('h1').style.display = "none";
     document.getElementById('display-container').style.display = "block";
 }
