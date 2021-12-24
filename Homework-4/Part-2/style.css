@@ -4,10 +4,6 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-/* 
-#next {
-    display: none;
-} */
 
 button {
     cursor: pointer;
@@ -16,8 +12,7 @@ button {
 #container {
     position: relative;
     width: 100%;
-    height: 799px;
-    /* border: 1px solid #000000; */
+    height: 567px;
 }
 
 .wrapper {
@@ -26,28 +21,22 @@ button {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* border: 1px solid #000000; */
 }
 
 #question {
     font-size: xx-large;
-    /* text-align: center; */
     text-align: center;
     font-weight: bolder;
     padding: 16px;
-    /* border: 1px solid #000000; */
 }
 
 #display {
     margin: 20px;
     position: relative;
-    /* width: 100%; */
-    /* border: 1px solid #000000; */
 }
 
 .left {
     width: 40%;
-    /* height: 100px; */
     margin-right: 59px;
     padding: 4px 0;
     font-size: x-large;
@@ -80,8 +69,6 @@ button {
 
 #answer {
     font-size: xx-large;
-    /* text-align: center; */
-    /* text-align: center; */
     display: none;
     font-weight: bolder;
     padding: 128px;
@@ -90,7 +77,6 @@ button {
     box-shadow: 10px 10px 5px #999;
     text-shadow: 2px 2px 5px #000000;
     border-radius: 16px;
-    /* border: 1px solid #000000; */
 }
 
 #start {
